@@ -1,0 +1,233 @@
+.grid-static(){
+  body {
+    min-width: 960px;
+  }
+  .es-container_full {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    .clearfix();
+  }
+  .es-container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    width: 1040px;
+    .border-box();
+    .clearfix();
+  }
+  .es-container_1280 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    .clearfix();
+  }
+  .es-grid_1,
+  .es-grid_2,
+  .es-grid_3,
+  .es-grid_4,
+  .es-grid_5,
+  .es-grid_6,
+  .es-grid_7,
+  .es-grid_8,
+  .es-grid_9,
+  .es-grid_10,
+  .es-grid_11,
+  .es-grid_12 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .es-push_1, .es-pull_1,
+  .es-push_2, .es-pull_2,
+  .es-push_3, .es-pull_3,
+  .es-push_4, .es-pull_4,
+  .es-push_5, .es-pull_5,
+  .es-push_6, .es-pull_6,
+  .es-push_7, .es-pull_7,
+  .es-push_8, .es-pull_8,
+  .es-push_9, .es-pull_9,
+  .es-push_10, .es-pull_10,
+  .es-push_11, .es-pull_11,
+  .es-push_12, .es-pull_12 {
+    position:relative;
+  }
+  .es-alpha {
+    margin-left: 0;
+  }
+  .es-omega {
+    margin-right: 0;
+  }
+  .es-container_12 .es-grid_1 {
+    width:60px;
+  }
+  .es-container_12 .es-grid_2 {
+    width:140px;
+  }
+  .es-container_12 .es-grid_3 {
+    width:220px;
+  }
+  .es-container_12 .es-grid_4 {
+    width:300px;
+  }
+  .es-container_12 .es-grid_5 {
+    width:380px;
+  }
+  .es-container_12 .es-grid_6 {
+    width:460px;
+  }
+  .es-container_12 .es-grid_7 {
+    width:540px;
+  }
+  .es-container_12 .es-grid_8 {
+    width:620px;
+  }
+  .es-container_12 .es-grid_9 {
+    width:700px;
+  }
+  .es-container_12 .es-grid_10 {
+    width:780px;
+  }
+  .es-container_12 .es-grid_11 {
+    width:860px;
+  }
+  .es-container_12 .es-grid_12 {
+    width:940px;
+  }
+  .es-container_12 .es-prefix_1 {
+    padding-left:80px;
+  }
+  .es-container_12 .es-prefix_2 {
+    padding-left:160px;
+  }
+  .es-container_12 .es-prefix_3 {
+    padding-left:240px;
+  }
+  .es-container_12 .es-prefix_4 {
+    padding-left:320px;
+  }
+  .es-container_12 .es-prefix_5 {
+    padding-left:400px;
+  }
+  .es-container_12 .es-prefix_6 {
+    padding-left:480px;
+  }
+  .es-container_12 .es-prefix_7 {
+    padding-left:560px;
+  }
+  .es-container_12 .es-prefix_8 {
+    padding-left:640px;
+  }
+  .es-container_12 .es-prefix_9 {
+    padding-left:720px;
+  }
+  .es-container_12 .es-prefix_10 {
+    padding-left:800px;
+  }
+  .es-container_12 .es-prefix_11 {
+    padding-left:880px;
+  }
+  .es-container_12 .es-suffix_1 {
+    padding-right:80px;
+  }
+  .es-container_12 .es-suffix_2 {
+    padding-right:160px;
+  }
+  .es-container_12 .es-suffix_3 {
+    padding-right:240px;
+  }
+  .es-container_12 .es-suffix_4 {
+    padding-right:320px;
+  }
+  .es-container_12 .es-suffix_5 {
+    padding-right:400px;
+  }
+  .es-container_12 .es-suffix_6 {
+    padding-right:480px;
+  }
+  .es-container_12 .es-suffix_7 {
+    padding-right:560px;
+  }
+  .es-container_12 .es-suffix_8 {
+    padding-right:640px;
+  }
+  .es-container_12 .es-suffix_9 {
+    padding-right:720px;
+  }
+  .es-container_12 .es-suffix_10 {
+    padding-right:800px;
+  }
+  .es-container_12 .es-suffix_11 {
+    padding-right:880px;
+  }
+  .es-container_12 .es-push_1 {
+    left:80px;
+  }
+  .es-container_12 .es-push_2 {
+    left:160px;
+  }
+  .es-container_12 .es-push_3 {
+    left:240px;
+  }
+  .es-container_12 .es-push_4 {
+    left:320px;
+  }
+  .es-container_12 .es-push_5 {
+    left:400px;
+  }
+  .es-container_12 .es-push_6 {
+    left:480px;
+  }
+  .es-container_12 .es-push_7 {
+    left:560px;
+  }
+  .es-container_12 .es-push_8 {
+    left:640px;
+  }
+  .es-container_12 .es-push_9 {
+    left:720px;
+  }
+  .es-container_12 .es-push_10 {
+    left:800px;
+  }
+  .es-container_12 .es-push_11 {
+    left:880px;
+  }
+  .es-container_12 .es-pull_1 {
+    left:-80px;
+  }
+  .es-container_12 .es-pull_2 {
+    left:-160px;
+  }
+  .es-container_12 .es-pull_3 {
+    left:-240px;
+  }
+  .es-container_12 .es-pull_4 {
+    left:-320px;
+  }
+  .es-container_12 .es-pull_5 {
+    left:-400px;
+  }
+  .es-container_12 .es-pull_6 {
+    left:-480px;
+  }
+  .es-container_12 .es-pull_7 {
+    left:-560px;
+  }
+  .es-container_12 .es-pull_8 {
+    left:-640px;
+  }
+  .es-container_12 .es-pull_9 {
+    left:-720px;
+  }
+  .es-container_12 .es-pull_10 {
+    left:-800px;
+  }
+  .es-container_12 .es-pull_11 {
+    left:-880px;
+  }
+}
