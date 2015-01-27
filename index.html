@@ -9,42 +9,46 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<div class="logo">
-			<span>ORGANIC</span>SPA
-		</div>
-		<div class="nav-top">
-			<nav>
-				<a href=""></a>
-				<a href="">Наши услуги</a>
-				<a href="">Спецпредложения</a>
-				<a href="">Отзывы</a>
-				<a href="">Контакты</a>
-			</nav>
-		</div>
-		<div class="phone">
-			8 (800) 244 44 45
+		<div class="shadow">
+			<div class="wrapper">
+				<div class="logo">
+					<span>ORGANIC</span>SPA
+				</div>
+				<div class="nav-top">
+					<nav>
+						<a href="#home"></a>
+						<a href="#services">Наши услуги</a>
+						<a href="#offers">Спецпредложения</a>
+						<a href="#reviews">Отзывы</a>
+						<a href="#contacts">Контакты</a>
+					</nav>
+				</div>
+				<div class="phone">
+					8 (800) 244 44 45
+				</div>
+			</div>
 		</div>
 	</header>
-	<section class="banner">
-		
-	</section>
+	<section class="banner" id="home"></section>
 	<section class="nav-round">
 		<div class="wrapper">
-			<div class="round-item-wrap">
-				<a href="#aroma" class="round-item">Ароматерапия</a>
-			</div>
-			<div class="round-item-wrap">
-				<a href="#stone" class="round-item">Массаж и камни</a>
-			</div>
-			<div class="round-item-wrap">
-				<a href="#face" class="round-item">Уход за лицом</a>
-			</div>
-			<div class="round-item-wrap">
-				<a href="#bath" class="round-item">Банный комплекс</a>
-			</div>			
+			<a href="#aroma" class="round-item-wrap">
+				<span class="round-item">Ароматерапия</span>
+			</a>
+			<a href="#stone" class="round-item-wrap">
+				<span class="round-item">Массаж и камни</span>
+			</a>
+			<a href="#face" class="round-item-wrap">
+				<span class="round-item">Уход за лицом</span>
+			</a>
+			<a href="#bath" class="round-item-wrap">
+				<span class="round-item">Банный комплекс</span>
+			</a>			
 		</div>
 	</section>
 	<section class="advantages">
@@ -53,7 +57,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi quaerat, eos facilis eum itaque dolore incidunt magni, officia animi qui numquam tenetur quidem cumque recusandae placeat autem perferendis corrupti.</p>
 		</div>
 	</section>
-	<section class="services">
+	<section class="services" id="services">
 		<div class="wrapper">
 			<h2>Наши услуги</h2>
 			<ul>
@@ -62,9 +66,9 @@
 				<li><a href="#face">Уход за лицом</a></li>
 				<li><a href="#bath">Банный комплекс</a></li>
 			</ul>
-			<div class="service-item">
+			<div class="service-item" id="aroma">
 				<div class="left">
-					<img src="img/aroma.png" alt="Photo">
+					<img src="img/aroma.jpg" alt="Photo">
 					<h3>Ароматерапия</h3>
 					<span>2-3 часа</span>
 					<span>2 300 р.</span>
@@ -89,10 +93,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="service-item">
+			<div class="service-item" id="stone">
 				<div class="left">
-					<img src="img/aroma.png" alt="Photo">
-					<h3>Ароматерапия</h3>
+					<img src="img/stone.jpg" alt="Photo">
+					<h3>Массаж и камни</h3>
 					<span>2-3 часа</span>
 					<span>2 300 р.</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -116,10 +120,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="service-item">
+			<div class="service-item" id="face">
 				<div class="left">
-					<img src="img/aroma.png" alt="Photo">
-					<h3>Ароматерапия</h3>
+					<img src="img/face.jpg" alt="Photo">
+					<h3>Уход за лицом</h3>
 					<span>2-3 часа</span>
 					<span>2 300 р.</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -143,10 +147,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="service-item">
+			<div class="service-item" id="bath">
 				<div class="left">
-					<img src="img/aroma.png" alt="Photo">
-					<h3>Ароматерапия</h3>
+					<img src="img/bath.jpg" alt="Photo">
+					<h3>Банный комплекс</h3>
 					<span>2-3 часа</span>
 					<span>2 300 р.</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -172,7 +176,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="offer">
+	<section class="offer" id="offers">
 		<div class="wrapper">
 			<h2>У нас есть для вас <b>специальные предложения</b></h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste obcaecati dignissimos, assumenda pariatur recusandae architecto, nostrum, nesciunt aut nemo atque veritatis tempore distinctio quasi reiciendis. Unde in sint, totam.</p>
@@ -186,7 +190,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="reviews">
+	<section class="reviews" id="reviews">
 		<div class="wrapper">
 			<h2>Отзывы наших клиентов</h2>
 			<div class="review-item">
@@ -206,7 +210,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 		<div class="wrapper">
 			<div class="address">
 				г. Москва, ул. Большая Академическая, 25/16, вход со двора
