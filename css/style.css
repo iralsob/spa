@@ -1,0 +1,8 @@
+.logo {
+  box-sizing: border-box;
+  top:10px;
+  position: absolute;
+  border-top:10px;
+  left: 20px;
+  box-shadow: 0 0 0 black;
+}
