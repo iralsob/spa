@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$('.nav-select-item').bind('click', function(){
 		$('.nav-select-item').removeClass("active");
 		$(this).addClass("active");
+		
 	});
 
 	$('a[href*=#]').bind("click", function(e){
