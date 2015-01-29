@@ -189,11 +189,11 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 }
 .services {
 	background: url(../img/bg.png), #f6f6ea;
+	padding-bottom: 40px;
 }
 .nav-middle {
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 35px;
 }
 .nav-middle.stickly {
 	position: fixed;
@@ -228,7 +228,7 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 }
 .service-item {
 	background: #fbfcf6;
-	margin-bottom: 40px;
+	margin-top: 40px;
 	overflow: hidden;
 	padding: 50px 15px 30px 15px;
 }
@@ -340,8 +340,15 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 	color: #ac9b91;
 	margin: 40px 0;
 }
+.right h4 {
+	font-size: 24px;
+	color: #504f4d;
+	margin-bottom: 20px;
+}
 .description-item {
 	font-size: 13px;
 	line-height: 1.86;
 	color: #ac9b91;
+	list-style: url(../img/list-item.png);
+	margin: 0 0 8px 20px;
 }
