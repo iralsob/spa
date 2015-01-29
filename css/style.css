@@ -523,6 +523,25 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 .contacts {
 	background: url(../img/bg.png), #fbfcf6;
 }
+.address,
+.contacts .phone,
+.email,
+.button {
+	width: 20%;
+	float: left;
+	padding-left: 5%;
+	text-align: left;
+}
+.address {
+	background: url(../img/map.png) no-repeat left center;
+}
+.contacts .phone{
+	background: url(../img/phone-contact.png) no-repeat left center;
+}
+.email {
+	padding: 12px 0 12px 5%;
+	background: url(../img/email.png) no-repeat left center;
+}
 map {
 	-webkit-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
 	-moz-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
