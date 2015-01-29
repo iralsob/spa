@@ -279,8 +279,15 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 .card .price {
 	font-size: 14px;
 	color: #464646;
-	margin-bottom: 20px;
+	margin: 0 7px 20px 7px;
 	display: inline-block;
+	padding: 4px 0 3px 28px;
+}
+.card .price {
+	background: url(../img/price.png) no-repeat left center;
+}
+.card .time {
+	background: url(../img/clock.png) no-repeat left center;
 }
 .card .price span {
 	font-weight: 700;
