@@ -37,13 +37,13 @@ header {
 	background: url(../img/bg.png), #f1f1e5;
 	position: fixed;
 	z-index: 3;
-	height: 65px;
+	height: 62px;
 }
 .shadow {
 	height: 62px;
-	-webkit-box-shadow: 0px 3px 0px 0px rgba(172, 155, 145, .4);
-	-moz-box-shadow: 0px 3px 0px 0px rgba(172, 155, 145, .4);
-	box-shadow: 0px 3px 0px 0px rgba(172, 155, 145, .4);
+	-webkit-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
+	-moz-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
+	box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
 }
 .logo, 
 .nav-top, 
@@ -79,9 +79,9 @@ nav a:first-child {
 	background: url(../img/home.png) no-repeat center center;
 }
 nav a:hover {
-	-webkit-box-shadow: 0px 3px 0px 0px #ac9b91;
-	-moz-box-shadow: 0px 3px 0px 0px #ac9b91;
-	box-shadow: 0px 3px 0px 0px #ac9b91;
+	-webkit-box-shadow: 0px -3px 0px 0px #ac9b91 inset;
+	-moz-box-shadow: 0px -3px 0px 0px #ac9b91 inset;
+	box-shadow: 0px -3px 0px 0px #ac9b91 inset;
 }
 .phone {
 	font-weight: 700;
@@ -197,7 +197,7 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 }
 .nav-middle.stickly {
 	position: fixed;
-	top: 65px;
+	top: 62px;
 	left: 0;
 	z-index: 4;
 }
@@ -358,4 +358,165 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 	color: #ac9b91;
 	list-style: url(../img/list-item.png);
 	margin: 0 0 8px 20px;
+}
+.offer {
+	display: inline-block;
+	padding-bottom: 80px;
+	background: url(../img/bg.png), #fbfcf6;
+}
+.offer-item {
+	display: inline-block;
+	float: left;
+	width: 46%;
+	padding: 1%;
+	border: 1px dashed #ebebeb;
+	background: #fbfcf6;
+}
+.offer-item:nth-child(odd){
+	margin-right: 1%;
+}
+.offer-item:nth-child(even){
+	margin-left: 1%;
+}
+.offer-item img {
+	width: 100%;
+}
+.offer-item h3 {
+	padding: 15px 0 5px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	color: #464646;
+}
+.offer p {
+	margin: 0 15% 50px 15%;
+	text-align: center;
+	color: rgba(0,0,0,.5);
+	font-size: 14px;
+	line-height: 1.71;
+}
+.flex-viewport {
+	width: 1000px;
+	margin: 0 auto;	
+}
+.flexslider {
+	position: relative;
+}
+.flex-control-nav {
+	display: none;
+}
+.flex-direction-nav a {
+	width: 30px;
+	height: 30px;
+	margin: -20px 0 0;
+	display: block;
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-transition: all .3s ease;
+	opacity: .2;
+	border-radius: 50%;
+	outline: 0;
+}
+.flex-direction-nav a:hover{
+	opacity: .7;
+}
+.flex-next {
+	background: url(../img/nav-r.png) no-repeat center, #ac9b91;
+	right: 10px;
+}
+.flex-prev {	
+	background: url(../img/nav-l.png) no-repeat center, #ac9b91;
+	left: 10px;
+}
+.ch-item {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    transition: all 0.4s ease-in-out;
+}
+.ch-img-1 {
+	background: url(../img/offer.jpg);
+}
+.ch-info {
+    position: absolute;
+    background: rgba(0,0,0, 0.5);
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+    cursor: pointer;
+}
+.ch-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 45px 0 0 0;
+    height: 140px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:
+        0 0 1px #fff,
+        0 1px 2px rgba(0,0,0,0.3);
+}
+.ch-info p {
+    color: #e5d3b8;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid #e5d3b8;
+    opacity: 0;
+    transition: all 1s ease-in-out 0.4s;
+}
+.ch-info p:first-child{
+	border-top: none;
+	margin-top: 10px;
+}
+.ch-item:hover {
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+        0 1px 2px rgba(0,0,0,0.1);
+    padding: 0;
+}
+.ch-item:hover .ch-info {
+    transform: scale(1);
+    opacity: 1;
+}
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
+.reviews {
+	padding: 0 0 40px;
+	background: url(../img/bg.png), #f6f6ea;
+}
+.review-item-wrapper {
+	margin: 0 10px;
+	background: #fbfcf6;
+	text-align: center;
+	margin-top: 120px;
+	padding: 0 25px 40px;
+}
+.review-item-wrapper img {
+	border-radius: 50%;
+	border: 3px solid #fbfcf6;
+	margin-top: -118px;
+}
+.review-item-wrapper h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #504f4d;
+	margin: 15px 0 20px;
+}
+.review-item-wrapper p {
+	font-size: 13px;
+	color: #ac9b91;
+	line-height: 1.9;
+	font-style: italic;
 }

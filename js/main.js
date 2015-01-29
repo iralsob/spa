@@ -6,6 +6,12 @@ $(document).ready(function() {
 		
 	});
 
+	$('.flexslider').flexslider({
+		animation: "slide",
+		animationLoop: false,
+		itemWidth: 500
+	});
+
 	$('a[href*=#]').bind("click", function(e){
 		var anchor = $(this);
 		$('html, body').stop().animate({
