@@ -527,20 +527,27 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 .contacts .phone,
 .email,
 .button {
-	width: 20%;
+	width: 21%;
 	float: left;
-	padding-left: 5%;
+	padding: 14px 0 14px 4%;
 	text-align: left;
+	color: #3c3c3c;
+	font-size: 13px;
 }
 .address {
 	background: url(../img/map.png) no-repeat left center;
 }
 .contacts .phone{
+	font-size: 18px;
+	font-weight: 700;
 	background: url(../img/phone-contact.png) no-repeat left center;
 }
 .email {
-	padding: 12px 0 12px 5%;
 	background: url(../img/email.png) no-repeat left center;
+}
+.email a {
+	color: inherit;
+	text-decoration: none;
 }
 map {
 	-webkit-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
