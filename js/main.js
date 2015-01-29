@@ -25,8 +25,8 @@ $(document).ready(function() {
 $(window).scroll(function(){
 	var height = $('.banner').outerHeight() + $('.nav-round').outerHeight() + $('.advantages').outerHeight() + $('.services h2').outerHeight() - $('.nav-middle').outerHeight();
 	if ( $(window).scrollTop() > height ){
-		$(".nav-middle").addClass("stickly");
+		$(".nav-middle-wrap").addClass("stickly");
 	} else {
-		$(".nav-middle").removeClass("stickly");
+		$(".nav-middle-wrap").removeClass("stickly");
 	}
 });
