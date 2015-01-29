@@ -532,6 +532,14 @@ nav a:hover
 
     color: #504f4d;
 }
+.item-for-select 
+{
+    display: none;
+}
+.item-for-select.selected 
+{
+    display: inline-block;
+}
 .description-item
 {
     font-size: 13px;
