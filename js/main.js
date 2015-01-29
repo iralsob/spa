@@ -1,11 +1,21 @@
 $(document).ready(function() {
 	
 	$('.nav-select-item').bind('click', function(){
-		$($(this).parent().find('.nav-select-item')).removeClass("active");
-		$(this).addClass("active");
-		
+		$(this).parent().find('.nav-select-item').removeClass("active");
+		$(this).addClass("active");		
 	});
 
+	for (var i = 1; i < 4; i++) {
+		addBind(i);
+	}
+	
+	function addBind(i){
+		var j = i + 1;		
+		$('.nav-select-item:nth-child('+i+')').bind('click', function(){
+			$(this).parent().parent().find('.item-for-select').removeClass("selected");
+			$(this).parent().parent().find('.item-for-select:nth-child('+ j +')').addClass("selected");
+		});
+	}
 	$('.flexslider').flexslider({
 		animation: "slide",
 		animationLoop: false,
