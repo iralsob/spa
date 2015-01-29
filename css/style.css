@@ -520,6 +520,9 @@ box-shadow:         0px 0px 5px 3px rgba(255, 255, 255, 1);
 	line-height: 1.9;
 	font-style: italic;
 }
+.contacts {
+	background: url(../img/bg.png), #fbfcf6;
+}
 map {
 	-webkit-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
 	-moz-box-shadow: 0px -3px 0px 0px rgba(172, 155, 145, .4) inset;
@@ -529,4 +532,11 @@ map {
 				0px 3px 0px 0px rgba(172, 155, 145, .4);
 	display: inline-block;
 	width: 100%;
+}
+footer {
+	background: url(../img/bg.png), #fbfcf6;
+	text-align: center;
+	font-size: 13px;
+	color: #ac9b91;
+	padding: 10px 0;
 }
