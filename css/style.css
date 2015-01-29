@@ -4,6 +4,7 @@ section {
     margin-right: 0;
     width: 100% !important;
     font-family: 'PT Sans';
+    display: inline-block;
 }
 .wrapper {
 	width: 1170px;
