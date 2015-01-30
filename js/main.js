@@ -1,4 +1,22 @@
 $(document).ready(function() {
+	var myMap;
+
+	ymaps.ready(init);
+
+	function init () {
+		myMap = new ymaps.Map('map', {
+			center: [55.76, 37.64],
+			zoom: 12
+	});
+
+	var myPlacemark = new ymaps.Placemark([55.76, 37.64], {}, {
+		iconLayout: 'default#image',
+		iconImageHref: 'http://iralsob.github.io/spa/img/pointer.png',
+		iconImageSize: [50, 65],
+		iconImageOffset: [-3, -42]
+	});
+	
+	myMap.geoObjects.add(myPlacemark);
 	
 	$('.nav-select-item').bind('click', function(){
 		$(this).parent().find('.nav-select-item').removeClass("active");
