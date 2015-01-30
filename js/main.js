@@ -59,7 +59,9 @@ $(window).scroll(function(){
 	} else if ( $(window).scrollTop() > h4 && $(window).scrollTop() < h5) {
 		$(".nav-middle-item").removeClass("active");
 		$(".nav-middle-item:nth-child(4)").addClass("active");
-	} 
+	} else {
+		$(".nav-middle-item").removeClass("active");
+	}
 
 });
 

@@ -101,29 +101,24 @@ nav
 
     text-align: center;
 }
+nav ul
+{
+    height: 62px;
+}
 nav li
 {
     display: inline-block;
 
+    height: 100%;
+
     vertical-align: middle;
 }
-nav a
+nav li:hover
 {
-    font-size: 18px;
-    line-height: 3.7;
-
-    position: relative;
-    bottom: -2px;
-
-    display: inline-block;
-
-    padding: 0 13px;
-
-    text-decoration: none;
-    text-transform: uppercase;
-
-    opacity: .5;
-    color: #504f4d;
+    opacity: 1;
+    -webkit-box-shadow: 0 -3px 0 0 #ac9b91 inset;
+       -moz-box-shadow: 0 -3px 0 0 #ac9b91 inset;
+            box-shadow: 0 -3px 0 0 #ac9b91 inset;
 }
 nav li:first-child a
 {
@@ -133,27 +128,26 @@ nav li:first-child a
 
     background: url(../img/home.png) no-repeat center center;
 }
-nav ul
-{
-    height: 62px;
-}
-nav ul li
-{
-    height: 100%;
-}
 nav ul li a
 {
+    font-size: 18px;
+    line-height: 3.7;
+
+    position: relative;
+    bottom: -2px;
+
     display: inline;
 
     height: 100%;
+    padding: 0 13px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    opacity: .5;
+    color: #504f4d;
 }
-nav li:hover
-{
-    opacity: 1;
-    -webkit-box-shadow: 0 -3px 0 0 #ac9b91 inset;
-       -moz-box-shadow: 0 -3px 0 0 #ac9b91 inset;
-            box-shadow: 0 -3px 0 0 #ac9b91 inset;
-}
+
 .phone
 {
     font-size: 20px;
