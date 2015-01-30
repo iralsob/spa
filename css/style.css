@@ -97,6 +97,10 @@ nav
 
     text-align: center;
 }
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+}
 nav a
 {
     font-size: 18px;
@@ -106,7 +110,7 @@ nav a
 
     display: inline-block;
 
-    padding: 0 13px 15px 13px;
+    padding: 14px 13px;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -114,11 +118,11 @@ nav a
     opacity: .5;
     color: #504f4d;
 }
-nav a:first-child
+nav li:first-child a
 {
-    padding: 34px 21px 20px;
-
-    vertical-align: bottom;
+    padding: 27px 21px 27px;
+	
+	vertical-align: super;
 
     background: url(../img/home.png) no-repeat center center;
 }
