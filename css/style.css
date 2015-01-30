@@ -116,7 +116,9 @@ nav a
 }
 nav a:first-child
 {
-    padding: 22px 22px 16px;
+    padding: 34px 21px 20px;
+
+    vertical-align: bottom;
 
     background: url(../img/home.png) no-repeat center center;
 }
