@@ -127,7 +127,7 @@ nav a
 }
 nav li:first-child a
 {
-    padding: 0 21px 0;
+    padding: 7px 21px 7px;
 
     vertical-align: super;
 
