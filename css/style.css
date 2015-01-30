@@ -705,9 +705,13 @@ nav li:hover
     cursor: default;
     transition: all .4s ease-in-out;
 }
-.ch-img-1
+.offer-item:nth-child(3) .ch-img-1
 {
     background: url(../img/offer.jpg);
+}
+.offer-item:nth-child(4) .ch-img-1
+{
+    background: url(../img/offer-2.jpg);
 }
 .ch-info
 {
