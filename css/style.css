@@ -18,6 +18,7 @@ section
 h2
 {
     font-size: 24px;
+    line-height: 1.5;
 
     position: relative;
 
@@ -336,9 +337,13 @@ nav a:hover
 }
 .nav-middle-item a:hover
 {
-    transition: all .6s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 
-    background: rgba(172,155,145,.4);
+    color: #ac9b91;
+}
+.nav-middle-item.active
+{
+    box-shadow: 0 -3px 0 0 rgba(65, 44, 10, .2) inset;
 }
 .nav-middle.stickly + .service-item
 {
@@ -533,11 +538,11 @@ nav a:hover
 
     color: #504f4d;
 }
-.item-for-select 
+.item-for-select
 {
     display: none;
 }
-.item-for-select.selected 
+.item-for-select.selected
 {
     display: inline-block;
 }
@@ -621,7 +626,7 @@ nav a:hover
 .flex-direction-nav a
 {
     position: absolute;
-    top: 40%;
+    bottom: 30%;
 
     display: block;
 

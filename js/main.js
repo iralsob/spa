@@ -40,4 +40,25 @@ $(window).scroll(function(){
 	} else {
 		$(".nav-middle-wrap").removeClass("stickly");
 	}
+
+	var h1 = $('.banner').outerHeight() + $('.nav-round').outerHeight() + $('.advantages').outerHeight() + $('.services h2').outerHeight() + $('.nav-middle-wrap').outerHeight();
+	var h2 = h1 + $('#aroma').outerHeight();
+	var h3 = h2 + $('#stone').outerHeight();
+	var h4 = h3 + $('#face').outerHeight();
+	var h5 = h4 + $('#bath').outerHeight();
+
+	if ( $(window).scrollTop() > h1 && $(window).scrollTop() < h2){
+		$(".nav-middle-item").removeClass("active");
+		$(".nav-middle-item:nth-child(1)").addClass("active");
+	} else if ( $(window).scrollTop() > h2 && $(window).scrollTop() < h3) {
+		$(".nav-middle-item").removeClass("active");
+		$(".nav-middle-item:nth-child(2)").addClass("active");
+	} else if ( $(window).scrollTop() > h3 && $(window).scrollTop() < h4) {
+		$(".nav-middle-item").removeClass("active");
+		$(".nav-middle-item:nth-child(3)").addClass("active");
+	} else if ( $(window).scrollTop() > h4 && $(window).scrollTop() < h5) {
+		$(".nav-middle-item").removeClass("active");
+		$(".nav-middle-item:nth-child(4)").addClass("active");
+	} 
+
 });
