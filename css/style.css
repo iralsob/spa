@@ -91,6 +91,9 @@ header
 {
     font-weight: 700;
 }
+.nav-top {
+	vertical-align: bottom;
+}
 nav
 {
     width: 710px;
@@ -110,7 +113,7 @@ nav a
 
     display: inline-block;
 
-    padding: 14px 13px;
+    padding: 0 13px;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -120,13 +123,23 @@ nav a
 }
 nav li:first-child a
 {
-    padding: 27px 21px 27px;
+    padding: 0px 21px 0px;
 	
 	vertical-align: super;
 
     background: url(../img/home.png) no-repeat center center;
 }
-nav a:hover
+nav ul {
+	height: 62px;
+}
+nav ul li {
+	height: 100%;
+}
+nav ul li a {
+	height: 100%;
+	display: inline;
+}
+nav li:hover
 {
     opacity: 1;
     -webkit-box-shadow: 0 -3px 0 0 #ac9b91 inset;
