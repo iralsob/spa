@@ -42,7 +42,7 @@ $(window).scroll(function(){
 	}
 
 	var h1 = $('.banner').outerHeight() + $('.nav-round').outerHeight() + $('.advantages').outerHeight() + $('.services h2').outerHeight() + $('.nav-middle-wrap').outerHeight();
-	var h2 = h1 + $('#aroma').outerHeight();
+	var h2 = h1 + $('#aroma').outerHeight() - 110; //110px - высота прилипающих меню
 	var h3 = h2 + $('#stone').outerHeight();
 	var h4 = h3 + $('#face').outerHeight();
 	var h5 = h4 + $('#bath').outerHeight();
